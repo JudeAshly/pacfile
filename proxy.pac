@@ -1,7 +1,7 @@
 globalThis.fallback = "DIRECT";
 
 globalThis.proxies = [
-	"HTTP localhost:8080"
+	"PROXY 127.0.0.1:8080; SOCKS5 127.0.0.1:8080"
 ];
 
 globalThis.rules = {
