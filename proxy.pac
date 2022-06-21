@@ -5,7 +5,7 @@ globalThis.proxies = [
 ];
 
 globalThis.rules = {
-	"bing.com": 0,
+	"net-square.com": 0,
 	
 };
 
